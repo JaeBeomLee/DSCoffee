@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Americano"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView"
+        />
+    <ImageView
+        android:src="@drawable/waterdrop_americano"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_below="@id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/RL"
+        android:layout_marginBottom="10dp"
+        android:layout_alignTop="@+id/imageView">
+
+        <TextView
+            android:id="@+id/ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------A"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#ff0d1037"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            />
+
+        <TextView
+            android:id="@+id/ig2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------B"
+            android:textSize="20dp"
+            android:textColor="#ff242d7e"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/ig3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------C"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="#ff0d1037"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            />
+        <TextView
+            android:id="@+id/ig4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------D"
+            android:textSize="20dp"
+            android:textColor="#ffff0000"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/ig5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------E"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="#ffdad9d6"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            />
+        <TextView
+            android:id="@+id/ig6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------F"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="#ff000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"/>
+        <TextView
+            android:id="@+id/ig7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----------------G"
+            android:textSize="20dp"
+            android:textColor="#ff46a7cb"
+            android:layout_marginRight="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="0.1 온스"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
